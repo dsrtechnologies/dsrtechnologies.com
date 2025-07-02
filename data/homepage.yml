@@ -1,0 +1,41 @@
+banner:
+  enable: true
+  image: "images/banner.jpg"
+  contents: "**IT Services:**  _We provide on-site and remote services thru [TeamLogic IT](https://www.teamlogicit.com/gainesvillefl918/)_"
+  button:
+    contents: "Learn More"
+    url: "https://www.teamlogicit.com/gainesvillefl918/"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: Fire Alarms & Detection
+      image: images/notificon.png
+      content: >
+        DSR Technologies provides advanced fire alarm and detection systems designed
+        to safeguard commercial properties. Our solutions include system design, installation, 
+        and maintenance, ensuring compliance with safety codes and rapid emergency response capabilities.
+    - title: Security Systems
+      image: images/naccessicon.png
+      content: >
+        We deliver comprehensive security solutions including surveillance cameras, intrusion detection, 
+        and access control systems. Our integrated approach helps businesses monitor, protect, and manage 
+        their facilities with confidence and ease.
+    - title: Cabling Structure
+      image: images/nFiber002.png
+      content: >
+        Our structured cabling services support high-performance networks with organized, scalable 
+        infrastructure. From data centers to office buildings, we ensure reliable connectivity through 
+        expert planning and professional installation.
+  - type: heading
+    heading: Custom Tech Solutions for Every Business Need
+    contents: Built for contractors. Backed by experience.
+  - type: posts
+    heading: Recent Projects
+    content_type: projects
+    max: 2
+  - type: cta
+    contents: Your project. Our expertise. Let’s connect.
+    button:
+      contents: Contact Us
+      url: "mailto:contact@dsrtechnologies.com"

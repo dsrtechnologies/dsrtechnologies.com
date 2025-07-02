@@ -1,0 +1,51 @@
+/* This file intentionally left blank.
+ * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
+ */
+ #logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem; // Adjust spacing between logo and text
+  
+    h1 {
+      margin: 0;
+  
+      #logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+  
+        img {
+          height: 50px; // Adjust as needed
+          margin-right: 0.75rem;
+        }
+  
+        // Optional: style the title text
+        span {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+
+
+  .top-phone {
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transform: translateY(-50%);
+      font-weight: bold;
+      color: #000; 
+      z-index: 1000;
+    }
+    
+    .top-phone a {
+      color: #000; /* Adjust to match your theme */
+      text-decoration: none;
+    }
+    
